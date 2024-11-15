@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <link rel="stylesheet" href="CHATstyle.css">
+</head>
+<body>
+    <nav class="main-bar">
+        <!-- Icon Navigation Bar -->
+     <!-- Logo on the far left -->
+     <div class="logo-container">
+        <a href="./newservicefeed.html ">
+        <img src="images/logo.png" class="logo" alt="MarketMate Logo" width="120" height="50"></a>
+    </div>
+    <!-- Icons on the far right -->
+    <div class="icon-container">
+        <div class="icon-item">
+            <a href="./wishList.html ">
+            <img src="images/wishListIcon.png" alt="Wishlist Icon" width="15" height="15"></a>
+            <!--<p>Messages</p>-->
+        </div>
+        <div class="icon-item">
+            <a href = "./CHATINDEX.html">
+            <img src="images/messageIcon.png" alt="Message Icon" width="15" height="15"></a>
+           <!-- <p>Notifications</p>-->
+        </div>
+        <div class="icon-item">
+            <a href = "./Notification.html">
+            <img src="images/notifIcon.png" alt="Notification Icon" width="15" height="15"></a>
+           <!-- <p>Notification</p>-->
+        </div>
+        <div class="icon-item">
+            <img src="images/profileIcon.png" alt="Profile Icon" width="35" height="20">
+          <!--  <p>Profile</p>-->
+            </div>
+</div>
+</nav>
+    <div class="main-container">
+        <div class="left-messages">
+            <div class="left-header">Other Messages</div>
+            <div class="messages-list">
+                <div class="search-bar">
+                    <i class="uil uil-search"></i>
+                    <input type="search" placeholder="Search messages" id="message-search">
+                </div>
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profileIcon.png">
+                    </div>
+                    <div class="message-body">
+                        <h5>Ken Carson</h5>
+                        <p class="text-muted">Just woke up bruh meet in 12</p>
+                    </div>
+                </div>
+                <!------- MESSAGES ------->
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profile-6.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h5>Luffy</h5>
+                        <p class="text-bold">200 is crazy ma boy </p>
+                    </div>
+                </div>
+                 <!------- MESSAGES ------->
+                 <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profile-6.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h5>lexy</h5>
+                        <p class="text-bold">Send your number  </p>
+                    </div>
+                </div>
+                 <!------- MESSAGES ------->
+                 <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profile-6.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h5>PersoninClass</h5>
+                        <p class="text-bold">Facebook Market Place scammed me !! </p>
+                    </div>
+                </div>
+                 <!------- MESSAGES ------->
+                 <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profile-6.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h5>Personw/ocar</h5>
+                        <p class="text-bold"> wow meeting you was super easy</p>
+                    </div>
+                </div>
+                 <!------- MESSAGES ------->
+                 <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profile-6.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h5>GojoShibuya</h5>
+                        <p class="text-bold">Marketmates kinda cool</p>
+                    </div>
+                </div>
+                 <!------- MESSAGES ------->
+                 <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profile-6.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h5>Tony </h5>
+                        <p class="text-bold">Hey are you still looking for a tatto artist </p>
+                    </div>
+                </div>
+                <!------- MESSAGES ------->
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profile-8.jpg">
+                        <div class="active"></div>
+                    </div>
+                    <div class="message-body">
+                        <h5>sasuke</h5>
+                        <p class="text-muted">1 new message  </p>
+                    </div>
+                </div>
+                <!------- MESSAGES ------->
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profile-10.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h5>niyah</h5>
+                        <p class="text-muted">trade for vintage?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-container">
+            <div class="chat-header">Chat</div>
+            <div class="chat-messages" id="chat-messages">
+                <!-- Chat messages will appear here -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="message-input" placeholder="Type your message here..." />
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="CHATINDEX.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Mate - Notification Center</title>
+    <link rel="stylesheet" href="wishlist.css">
+</head>
+    <body class="services-page">
+        <nav class="main-bar">
+            <!-- Icon Navigation Bar -->
+         <!-- Logo on the far left -->
+         <div class="logo-container">
+            <a href = "./newservicefeed.html">
+            <img src="images/logo.png" class="logo" alt="MarketMate Logo" width="120" height="50"></a>
+        </div>
+        <!-- Icons on the far right -->
+        <div class="icon-container">
+            <div class="icon-item">
+                <img src="images/wishListIcon.png" alt="Wishlist Icon" width="15" height="15">
+                <!--<p>Messages</p>-->
+            </div>
+            <div class="icon-item">
+                <a href = "./CHATINDEX.html">
+                <img src="images/messageIcon.png" alt="Message Icon" width="15" height="15"></a>
+               <!-- <p>Notifications</p>-->
+            </div>
+            <div class="icon-item">
+                <a href = "./Notification.html">
+                <img src="images/notifIcon.png" alt="Notification Icon" width="15" height="15"></a>
+               <!-- <p>Notification</p>-->
+            </div>
+            <div class="icon-item">
+                <img src="images/profileIcon.png" alt="Profile Icon" width="35" height="20">
+              <!--  <p>Profile</p>-->
+                </div>
+</div>
+</nav>
+
+   <div class="WishList-center">
+        <div class="header">
+            <h2>Market Mate WishLists</h2>
+            <button id="clear-all" onclick="clearWishLists()">Clear All</button>
+        </div>
+        
+        <div class="WishLists" id="WishLists">
+            <!-- Sample WishLists -->
+            <div class="WishList">
+                <div class="icon">
+                    <img src="./images/sale.png" alt="Sale">
+                </div>
+                <div class="details">
+                    <h4>Flash Sale</h4>
+                    <p>Up to 50% off on selected items!</p>
+                    <span class="time">2 hours ago</span>
+                </div>
+            </div>
+            
+            <div class="WishList">
+                <div class="icon">
+                    <img src="./images/new-product.png" alt="New Product">
+                </div>
+                <div class="details">
+                    <h4>New Product Alert</h4>
+                    <p>Check out the latest gadgets now available!</p>
+                    <span class="time">1 day ago</span>
+                </div>
+            </div>
+
+            <div class="WishList">
+                <div class="icon">
+                    <img src="./images/discount.png" alt="Discount">
+                </div>
+                <div class="details">
+                    <h4>Exclusive Discount</h4>
+                    <p>20% off for premium members!</p>
+                    <span class="time">3 days ago</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="wishlist.js"></script>
+</body>
+</html>
